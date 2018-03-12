@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TRENDS Web Application">
+ 
+  <listeners>
+  	<listener class-name = "com.samp.farrier.util.ExtentReporterNG" />
+  </listeners>
+
+  <test name="TRENDS Module Test">
+    	<classes>
+    		<class name = "com.samp.farrier.tests.LoginPageTest"/>      
+    		<class name = "com.samp.farrier.tests.HomePageTest"/>
+    		<class name = "com.samp.farrier.tests.StaffPageTest"/>
+     	</classes>	
+  </test>
+</suite>

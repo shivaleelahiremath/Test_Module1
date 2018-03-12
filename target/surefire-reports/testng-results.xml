@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="131697" started-at="2018-03-12T13:26:16Z" finished-at="2018-03-12T13:28:27Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="131697" started-at="2018-03-12T13:26:16Z" finished-at="2018-03-12T13:28:27Z">
+      <class name="com.samp.farrier.tests.StaffPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.samp.farrier.tests.StaffPageTest@12843fce]" name="setUp" is-config="true" duration-ms="33285" started-at="2018-03-12T13:27:23Z" finished-at="2018-03-12T13:27:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyStaffModuleTitleTest()[pri:1, instance:com.samp.farrier.tests.StaffPageTest@12843fce]" name="verifyStaffModuleTitleTest" duration-ms="39" started-at="2018-03-12T13:27:56Z" finished-at="2018-03-12T13:27:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStaffModuleTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.samp.farrier.tests.StaffPageTest@12843fce]" name="tearDown" is-config="true" duration-ms="237" started-at="2018-03-12T13:27:56Z" finished-at="2018-03-12T13:27:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.samp.farrier.tests.StaffPageTest -->
+      <class name="com.samp.farrier.tests.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.samp.farrier.tests.HomePageTest@2cb4c3ab]" name="setUp" is-config="true" duration-ms="34788" started-at="2018-03-12T13:26:16Z" finished-at="2018-03-12T13:26:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:1, instance:com.samp.farrier.tests.HomePageTest@2cb4c3ab]" name="verifyHomePageTitleTest" duration-ms="45" started-at="2018-03-12T13:26:50Z" finished-at="2018-03-12T13:26:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.samp.farrier.tests.HomePageTest@2cb4c3ab]" name="tearDown" is-config="true" duration-ms="307" started-at="2018-03-12T13:26:51Z" finished-at="2018-03-12T13:26:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.samp.farrier.tests.HomePageTest@2cb4c3ab]" name="setUp" is-config="true" duration-ms="22651" started-at="2018-03-12T13:27:57Z" finished-at="2018-03-12T13:28:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="clickOnStaffLinkTest()[pri:2, instance:com.samp.farrier.tests.HomePageTest@2cb4c3ab]" name="clickOnStaffLinkTest" duration-ms="7797" started-at="2018-03-12T13:28:19Z" finished-at="2018-03-12T13:28:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnStaffLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.samp.farrier.tests.HomePageTest@2cb4c3ab]" name="tearDown" is-config="true" duration-ms="216" started-at="2018-03-12T13:28:27Z" finished-at="2018-03-12T13:28:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.samp.farrier.tests.HomePageTest -->
+      <class name="com.samp.farrier.tests.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.samp.farrier.tests.LoginPageTest@13c78c0b]" name="setUp" is-config="true" duration-ms="11413" started-at="2018-03-12T13:26:51Z" finished-at="2018-03-12T13:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest()[pri:1, instance:com.samp.farrier.tests.LoginPageTest@13c78c0b]" name="loginTest" duration-ms="20553" started-at="2018-03-12T13:27:02Z" finished-at="2018-03-12T13:27:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.samp.farrier.tests.LoginPageTest@13c78c0b]" name="tearDown" is-config="true" duration-ms="213" started-at="2018-03-12T13:27:23Z" finished-at="2018-03-12T13:27:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.samp.farrier.tests.LoginPageTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

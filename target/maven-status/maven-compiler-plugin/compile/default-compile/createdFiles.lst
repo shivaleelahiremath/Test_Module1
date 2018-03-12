@@ -1,0 +1,11 @@
+com/samp/farrier/pages/SignUpPage.class
+com/samp/farrier/util/TestUtil.class
+com/samp/farrier/pages/STAARPage.class
+com/samp/farrier/pages/CampusPages.class
+com/samp/farrier/pages/KentroPage.class
+com/samp/farrier/util/WebEventListener.class
+com/samp/farrier/util/ExtentReporterNG.class
+com/samp/farrier/pages/HomePage.class
+com/samp/farrier/base/TestBase.class
+com/samp/farrier/pages/StaffPage.class
+com/samp/farrier/pages/LoginPage.class
