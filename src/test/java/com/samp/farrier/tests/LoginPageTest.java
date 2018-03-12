@@ -20,6 +20,9 @@ import com.samp.farrier.pages.HomePage;
 import com.samp.farrier.pages.LoginPage;
 import com.samp.farrier.util.TestUtil;
 
+/*
+ * Login page for trends application..
+ */
 public class LoginPageTest extends TestBase {
 	LoginPage loginPage;
 	HomePage homePage;
