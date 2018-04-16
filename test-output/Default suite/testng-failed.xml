@@ -3,16 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.samp.farrier.tests.LoginPageTest">
+      <class name="com.samp.farrier.EXMP_test.Actions_Selenium">
         <methods>
-          <include name="loginTest"/>
-          <include name="tearDown"/>
-          <include name="login"/>
-          <include name="validateLogImageTest"/>
-          <include name="validateLoginPageTitleTest"/>
-          <include name="setUp"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- com.samp.farrier.tests.LoginPageTest -->
+      </class> <!-- com.samp.farrier.EXMP_test.Actions_Selenium -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

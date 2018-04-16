@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [TRENDS Web Application]">
-  <listeners>
-    <listener class-name="com.samp.farrier.util.ExtentReporterNG"/>
-  </listeners>
-  <test thread-count="5" name="TRENDS Module Test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.samp.farrier.tests.LoginPageTest">
+      <class name="com.samp.farrier.EXMP_test.Actions_Selenium">
         <methods>
-          <include name="loginTest"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- com.samp.farrier.tests.LoginPageTest -->
+      </class> <!-- com.samp.farrier.EXMP_test.Actions_Selenium -->
     </classes>
-  </test> <!-- TRENDS Module Test(failed) -->
-</suite> <!-- Failed suite [TRENDS Web Application] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

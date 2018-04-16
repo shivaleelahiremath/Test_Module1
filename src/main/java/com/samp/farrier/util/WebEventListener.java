@@ -1,6 +1,5 @@
 package com.samp.farrier.util;
 
-import java.io.File;
 import java.io.IOException;
 
 import org.openqa.selenium.By;

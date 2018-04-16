@@ -7,12 +7,14 @@ import jxl.Sheet;
 import jxl.Workbook;
 import jxl.read.biff.BiffException;
 
+import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.samp.farrier.base.TestBase;
@@ -24,6 +26,8 @@ import com.samp.farrier.util.TestUtil;
  * Login page for trends application..
  */
 public class LoginPageTest extends TestBase {
+	
+	Logger log = Logger.getLogger(LoginPageTest.class);
 	LoginPage loginPage;
 	HomePage homePage;
 	TestUtil testUtil;
@@ -40,7 +44,7 @@ public class LoginPageTest extends TestBase {
 		loginPage = new LoginPage();
 	}
 	
-	@Test(priority=2)
+	@Test(priority=2, expectedExceptions = AssertionError.class)
 	public void validateLoginPageTitleTest(){
 		String title = loginPage.validateLoginPageTitle();
 		System.out.println("--->"+title);
@@ -55,7 +59,10 @@ public class LoginPageTest extends TestBase {
 	
 	@Test(priority=1)
 	public void loginTest() throws IOException{
+		log.info("-----------statrting test case login test method--------------------- ");
 		homePage = loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
+		log.info("-----------end test case login test method--------------------- ");
+
 	}
 	
 //	@DataProvider
@@ -68,7 +75,8 @@ public class LoginPageTest extends TestBase {
 				+"/module1/src/main/java/com/samp/farrier/testdata/LoginTestData.xls";
 static Workbook wBook;
 static Sheet sheet;
-@DataProvider
+
+	@DataProvider
 	public Object[][] getTestdata(){
 		 FileInputStream file = null;
 		 

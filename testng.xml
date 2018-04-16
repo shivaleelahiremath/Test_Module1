@@ -4,13 +4,16 @@
  
   <listeners>
   	<listener class-name = "com.samp.farrier.util.ExtentReporterNG" />
+  	<listener class-name = "com.analyzer.MyTransform"/>
   </listeners>
 
-  <test name="TRENDS Module Test">
+   <test name="TRENDS Module Test">
     	<classes>
+    	<class name="com.samp.farrier.tests.Test"></class>
+    	
     		<class name = "com.samp.farrier.tests.LoginPageTest"/>      
     		<class name = "com.samp.farrier.tests.HomePageTest"/>
     		<class name = "com.samp.farrier.tests.StaffPageTest"/>
      	</classes>	
-  </test>
+  </test> 
 </suite>

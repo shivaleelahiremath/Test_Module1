@@ -1,6 +1,8 @@
 package com.samp.farrier.tests;
 
 import java.io.IOException;
+
+import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -15,7 +17,8 @@ public class HomePageTest extends TestBase{
 	LoginPage loginPage;
 	HomePage homePage;
 	StaffPage staffpage;
-	
+	Logger log = Logger.getLogger(HomePageTest.class);
+
 	public HomePageTest() throws IOException {
 		super();
 	}
@@ -30,9 +33,12 @@ public class HomePageTest extends TestBase{
 	
 	@Test(priority =1)
 	public void verifyHomePageTitleTest(){
+		log.info("------start homepage title test ---- ");
 		String homePageTitle = homePage.verifyHomePageTitle();
 		System.out.println(homePageTitle);
 		Assert.assertEquals(homePageTitle, "Assessments", "Home page title not matching");
+		log.info("------end homepage title test ---- ");
+
 	}
 
 	@Test(priority =3)
